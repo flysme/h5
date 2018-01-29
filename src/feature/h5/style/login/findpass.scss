@@ -1,0 +1,59 @@
+@import "../common/uikit.scss";
+
+$formHeight:40px;
+$findWrap:#fafafa;
+$findPlaceholder:#e9e9e9;
+
+.find_wrap{
+	background: $findWrap;
+	height:100vh;
+	.find_title{
+		padding:10px 0;
+		font-size: 20px;
+		font-weight: 300;
+		text-align: center;
+		border-bottom: 1px solid $defaultBorderColor;
+	}
+	.form_wrap{
+		padding:10px 10px 0;
+		.phone{
+			width:100%;
+			height:$formHeight;
+			border:1px solid $defaultBorderColor;
+			border-radius:5px;
+			margin-bottom: 15px;
+			&.phonebg{
+				background:white url("../../assert/login/phone.png") no-repeat 10px center;
+				background-size:20px;
+			}
+			&.emailbg{
+				background:white url("../../assert/login/email.png") no-repeat 10px center;
+				background-size:20px;
+			}
+			input{
+				font-size: 12px;
+				margin-left: $formHeight;
+				width:calc( 100% - 50px );
+				height:100%;
+				border:none;
+				background:transparent;
+				&::-webkit-input-placeholder {
+				  color: $findPlaceholder;
+				}
+			}
+		}
+		.find_btn{
+			width:100%;
+			height: $formHeight;
+			color: white;
+			background:black;
+			border-radius:5px;
+			text-align: center;
+			line-height: $formHeight;
+			font-size: 16px;
+			font-weight: normal;
+			border:none;
+		}
+	}
+}
+

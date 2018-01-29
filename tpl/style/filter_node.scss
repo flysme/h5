@@ -1,0 +1,45 @@
+/* 栏目栏样式 */
+
+// #{{view_id}} .filter_node_box{
+//   width:{{filterNodeWidth|item_border,marginLeft,marginRight}};
+//   text-align:{{filterNodeAlign|isSplit}};
+//   line-height:{{height}}rpx;
+//   background:{{advanceBg|bg}};
+//   margin-left:{{marginLeft}}rpx;
+//   margin-right:{{marginRight}}rpx;
+//   color:{{formatColorToRgba|textNorColor}};
+//   font-size:{{textSize}}px;
+//   border-top:{{borders|item_border,top}};
+//   border-right:{{borders|item_border,right}};
+//   border-bottom:{{borders|item_border,bottom}};
+//   border-left:{{borders|item_border,left}};
+//   border-radius:{{cornerRadius}}rpx;
+//   overflow-x:{{filterNodeOverflow|isSplit}};
+// }
+
+// #{{view_id}} .filter_node_space{
+//   height: {{filterNodeHeight|height}};
+// }
+
+
+// #{{view_id}} .filter_node_item{
+//   margin-right:{{filterNodeMargin|isSplit,space}};
+//   display:{{filterNodeBlock|isSplit}};
+//   height: {{height}}rpx;
+// }
+
+// #{{view_id}} .filter_node_itemActive{
+//   font-size: {{filterNodeFontsize|isTextEnlarged,textEnlargedSize,textSize}};
+//   margin-right:{{filterNodeMargin|isSplit,space}};
+//   border-bottom:{{filterNodeCursortype|cursorType,cursorColor,border}};
+//   background:{{filterNodeCursortype|cursorType,cursorColor,background}};
+//   color:{{formatColorToRgba|textCurColor}};
+//   display:{{filterNodeBlock|isSplit}};
+//   height:{{height}}rpx;
+// }
+
+// #{{view_id}} .filter_node_imageItem{
+//   padding: {{padding|imagePadding}};
+//   width:{{filterNodeImagescale|imageWHScale}};
+//   height:{{filterNodeImagescale|imageWHScale,type,imagePadding,height,textSize}};
+// }

@@ -1,0 +1,74 @@
+/* 标准列表 */
+/*列表项*/
+#{{view_id}} .listitemview_parent{
+  margin: {{margin|margin}};
+  .listitemview{
+    background: {{advanceBg|itemNorBg}};
+    background-size:contain;
+  	padding: {{padding|itemPadding}};
+    border-width:{{borderWidth|item_border}};
+    border-color:{{borderColor|item_border}};
+    border-style:solid;
+  	border-radius: {{cornerRadius}}px;
+    /*列表标题*/
+    .listitemtitle{
+    	  max-height: {{textHeight|title_textSize,title_lineSpace,title_lineNum}};
+      	background: {{formatColorToRgba|title_textBgColor}};
+      	display: {{isVisiable|title_isVisiable}};
+      	color: {{formatColorToRgba|title_textColor}};
+      	margin: {{margin|title_margin}};
+      	padding: {{padding|title_padding}};
+      	font-weight: {{isBold|title_bold}};
+        /*列表字行数*/
+        .itemtitle{
+            max-width: 100%;
+            white-space: {{isWrap|title_lineNum}};
+            line-height: {{textLineHeight|title_lineSpace,title_textSize}};
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-height: {{textHeight|title_textSize,title_lineSpace,title_lineNum}};
+            text-align: {{textAlign|title_textAlignment}};
+          }
+          /*列表字*/
+          .title{
+          	display: block;
+            background: {{formatColorToRgba|title_textFillColor}};
+            font-size: {{title_textSize}}px;
+            text-shadow: {{shadow_old|title_shadowEffect,title_shadowDirection,title_vOffset,title_hOffset,title_shadowColor,title_shadowRadius}};
+          }
+    }
+      /*索引图*/
+    .indexpic{
+      width: {{indexPic_width}}rpx;
+      height: {{indexPic_height}}rpx;
+      display: {{isVisiable|indexPic_isVisiable}};
+      .indexpicimage{
+        position: relative;
+      	width: 100%;
+        height: 100%;
+        border-radius: {{indexPic_Radius}}rpx;
+        position: relative;
+        border-width:{{borderWidth|indexpic_border}};
+        border-color:{{borderColor|indexpic_border}};
+        border-style:solid;
+      }
+      .indexpicmask{
+        display: {{isVisiable|indexPic_isMask}};
+        background: {{formatColorToRgba|indexPic_maskBg}};
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+      }
+    }
+    .default_margin{
+      margin-right:{{listui1DefaultMargin|title_margin}};
+    }
+  }
+  /*分割线*/
+  .divider{
+  	margin: {{margin|divider_margin}};
+  	background: {{formatColorToRgba|divider_bg}};
+  	height: {{divider_height}}px;
+  }
+}

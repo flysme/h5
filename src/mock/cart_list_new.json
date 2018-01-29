@@ -1,0 +1,52 @@
+{
+    "error_message": "",
+    "error_code": "0",
+    "result": {
+        "valid": [{
+            "items": [{
+                "id": "3d2ab872cd2e4cac9b53394de40018fd",
+                "subject": "\u7ea2\u70e7\u6392\u9aa8",
+                "sku": {},
+                "image_url": {
+                    "source": "qiniu",
+                    "filepath": "2017/10/25/",
+                    "filename": "15088968202900.jpeg",
+                    "width": 500,
+                    "host": "http://qnimg-v2.ddapp.com/",
+                    "filesize": 32198,
+                    "height": 310,
+                    "dir": "material/"
+                },
+                "number": 1,
+                "stock": 974,
+                "buy_quota": 0,
+                "product": "336182121cbd48cb992498a9cddcdb54",
+                "valid": true,
+                "discount_price": 0.01,
+                "unit_price": 0.01
+            }, {
+                "id": "c57493261aac43b89bfb039763577cf2",
+                "subject": "\u67f3\u53f6\u84b8\u997a",
+                "sku": {},
+                "image_url": {
+                    "source": "qiniu",
+                    "filepath": "2017/10/25/",
+                    "filename": "15088973981051.jpeg",
+                    "width": 1200,
+                    "host": "http://qnimg-v2.ddapp.com/",
+                    "filesize": 195714,
+                    "height": 800,
+                    "dir": "material/"
+                },
+                "number": 0,
+                "stock": 999,
+                "buy_quota": 0,
+                "product": "594c9b75bcb348c58dcf33ac8b377948",
+                "valid": true,
+                "discount_price": 10.0,
+                "unit_price": 10.0
+            }]
+        }],
+        "invalid": []
+    }
+}

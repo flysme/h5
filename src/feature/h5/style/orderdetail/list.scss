@@ -1,0 +1,97 @@
+.orderlist{
+    font-size : 14px;
+    background : #eeeeee;
+    min-height:100vh;
+    .empty_order{
+        width:100%;
+        height:100vh;
+        img{
+            margin:auto;
+            width:350px;
+            height:175px;
+            object-fit:contain;
+        }
+    }
+    .item{
+        border-bottom : solid 1px #f0f0f0;
+        margin-bottom : 10px;
+        background : #fff;
+        .title{
+            height : 40px;
+            padding : 0 10px;
+            font-size:12px;
+            color : #999;
+            border-bottom:solid 1px #ebebeb;
+            img{
+                width : 15px;
+                height : 15px;
+                margin-right : 10px;
+            }
+            .green{
+                color:#0ECBAC;
+            }
+            .blue{
+                color:#14A7FF;
+            }
+            .gray{
+                color:#999;
+            }
+        }
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+    .product{
+        padding : 10px;
+        border-bottom:solid 1px #ebebeb;
+        img{
+            width : 70px;
+            height : 70px;
+            margin-right : 8px;
+            object-fit: cover;
+        }
+        .gray{
+            color : #959595;
+        }
+    }
+    .orderoption{
+      width: 100%;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      background: #fff;
+      border-top:solid 1px #ebebeb;
+    }
+    .orderbtnwrap{
+      flex:1;
+      text-align: right;
+      display: flex;
+      justify-content: flex-end;
+      .cancelorder,.payorder{
+        width:70px;
+        height:25px;
+        line-height: 25px;
+        text-align: center;
+        font-size: 12px;
+        border-radius: 5px;
+        margin-right:10px;
+      }
+      .cancelorder{
+        border:1px solid #999;
+        color: #999;
+      }
+      .payorder{
+        border:1px solid red;
+        color: #fff;
+        background : #b4282d;
+      }
+    }
+    .total{
+        height : 40px;
+        padding : 0 10px;
+    }
+    .ft12{
+        font-size : 12px;
+        text-align: right;
+    }
+}

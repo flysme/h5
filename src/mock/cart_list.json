@@ -1,0 +1,86 @@
+{
+    "error_message":"",
+    "error_code":"0",
+    "result":{
+        "valid":[
+            {
+                "id":"1ebd0707f9374c9e8dad602ede70b189",
+                "subject":"雅致羊绒混纺围巾",
+                "sku":{
+
+                },
+                "indexpic_url":"http://qnimg-v2.ddapp.com/material/2017/11/22/15113307174703.png?imageView2/1",
+                "image_url":{
+                    "source":"qiniu",
+                    "filepath":"2017/11/22/",
+                    "filename":"15113307174703.png",
+                    "width":340,
+                    "host":"http://qnimg-v2.ddapp.com/",
+                    "filesize":45076,
+                    "height":340,
+                    "dir":"material/"
+                },
+                "number":3,
+                "stock":9991,
+                "buy_quota":0,
+                "product":"2b6fd4937e274ee385acf2df90d8ccad",
+                "valid":true,
+                "discount_price":199,
+                "unit_price":199
+            },
+            {
+                "id":"e14a1f203d6e44f1a97909a5b5b0ef71",
+                "subject":"英伦伯雅双肩包 16.8L",
+                "sku":{
+
+                },
+                "indexpic_url":"http://qnimg-v2.ddapp.com/material/2017/11/22/15113309469589.png?imageView2/1",
+                "image_url":{
+                    "source":"qiniu",
+                    "filepath":"2017/11/22/",
+                    "filename":"15113309469589.png",
+                    "width":340,
+                    "host":"http://qnimg-v2.ddapp.com/",
+                    "filesize":43428,
+                    "height":340,
+                    "dir":"material/"
+                },
+                "number":9,
+                "stock":12539,
+                "buy_quota":0,
+                "product":"4201fb721990470eb74a2313fae22633",
+                "valid":true,
+                "discount_price":0.01,
+                "unit_price":0.01
+            },
+            {
+                "id":"e14a1f203d6e44f1a97909a5b5b0ef71",
+                "subject":"英伦伯雅双肩包 16.8L",
+                "sku":{
+
+                },
+                "indexpic_url":"http://qnimg-v2.ddapp.com/material/2017/11/22/15113309469589.png?imageView2/1",
+                "image_url":{
+                    "source":"qiniu",
+                    "filepath":"2017/11/22/",
+                    "filename":"15113309469589.png",
+                    "width":340,
+                    "host":"http://qnimg-v2.ddapp.com/",
+                    "filesize":43428,
+                    "height":340,
+                    "dir":"material/"
+                },
+                "number":9,
+                "stock":12539,
+                "buy_quota":0,
+                "product":"4201fb721990470eb74a2313fae22633",
+                "valid":true,
+                "discount_price":0.01,
+                "unit_price":0.01
+            }
+        ],
+        "invalid":[
+
+        ]
+    }
+}

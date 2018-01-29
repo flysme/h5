@@ -1,0 +1,13 @@
+require('../../vant-css/base.css');
+require('../../vant-css/icon.css');
+require('../../vant-css/cell.css');
+require('../../vant-css/field.css');
+require('../../vant-css/loading.css');
+require('../../vant-css/button.css');
+require('../../vant-css/popup.css');
+require('../../vant-css/toast.css');
+require('../../vant-css/dialog.css');
+require('../../vant-css/picker.css');
+require('../../vant-css/switch.css');
+require('../../vant-css/switch-cell.css');
+require('../../vant-css/address-edit.css');
