@@ -17,7 +17,7 @@ export default {
 	setExpanding( expanding ){
 		this.expanding = expanding;
 	},
-	//判断页面是否包含筛选器/栏目栏组件
+	//判断页面是否包含筛选器/ 栏目栏组件
 	hasFilter( pageId ){
 		let components = APPCONFIG.components[ pageId ].children;
 		let result = {
