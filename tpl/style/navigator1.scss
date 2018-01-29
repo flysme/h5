@@ -1,0 +1,127 @@
+/*标准列表导航器*/
+
+/*列表*/
+#{{view_id}} .navigator1{
+	margin: {{margin|margin}};
+  /*边框*/
+  .borderline{
+     overflow: hidden;
+     width: 100%;
+     border-width:{{borderWidth|item_border}};
+     border-color:{{borderColor|item_border}};
+     border-style:solid;
+      /*列表项*/
+     .listitemview{
+       background: {{advanceBg|itemNorBg}};
+       background-size: contain;
+       padding:{{padding|itemPadding}};
+       border-radius:{{cornerRadius}}rpx;
+       border-width:{{borderWidth|item_border}};
+       border-color:{{borderColor|item_border}};
+       border-style:solid;
+       /*列表布局*/
+       .spacecontent{
+          justify-content:space-between;
+       }
+       /*列表标题*/
+       .listitemtitle{
+        	 min-height: {{navminheight|title_textSize,title_lineNum}};
+        	 background: {{formatColorToRgba|title_textBgColor}};
+        	 display:{{isVisiable|title_isVisiable}};
+        	 color: {{formatColorToRgba|title_textColor}};
+        	 margin:{{margin|title_margin}};
+        	 padding:{{padding|title_padding}};
+        	 font-weight:{{slidertitlebold|title_bold}};
+           /*列表字行数*/
+           .itemtitle{
+                max-width: 100%;
+                white-space:{{isWrap|title_lineNum}};
+                line-height:{{listnav1Height|title_lineSpace,title_lineNum,title_textSize}};
+                overflow:hidden;
+                text-overflow: ellipsis;
+                max-height: {{navminheight|title_textSize,title_lineNum}};
+                text-align:{{textAlign|title_textAlignment}};
+                  /*列表字*/
+                  .title{
+                       font-size:{{title_textSize}}px;
+                       text-shadow:{{shadow_old|title_shadowEffect,title_shadowDirection,title_vOffset,title_hOffset,title_shadowColor,title_shadowRadius}};
+                    }
+           }
+        }
+        /*索引图*/
+        .indexpic{
+            width: {{navgetsizes|indexPic_width}};
+            display:{{isVisiable|indexPic_isVisiable}};
+            height: {{navgetsizes|indexPic_height}};
+            /*图片*/
+            .indexpicimage{
+            	 border-radius:{{indexPic_Radius}}rpx;
+                position: relative;
+                border-width:{{borderWidth|indexpic_border}};
+            	  border-color:{{borderColor|indexpic_border}};
+                border-style:solid;
+            }
+            /*遮罩*/
+            .indexpicmask{
+                width:100%;
+              	height:100%;
+              	top: 0;
+              	position:absolute;
+              	display: {{isVisiable|indexPic_isMask}};
+              	background: {{formatColorToRgba|indexPic_maskBg}};
+            }
+          }
+        /*列表描述*/
+        .listitemdescribe{
+          background:{{formatColorToRgba|brief_textBgColor}};
+          display: {{isVisiable|brief_isVisiable}};
+          color:{{formatColorToRgba|brief_textColor}};
+          margin:{{margin|brief_margin}};
+          padding:{{padding|brief_padding}};
+          padding-bottom:{{desbottom|style}};
+          font-weight:{{slidertitlebold|brief_bold}};
+          .itemdescribe{
+          	  max-width:100%;
+          	  font-size:{{brief_textSize}}px;
+          	  white-space:{{isWrap|brief_lineNum}};
+          	  line-height:{{brief_textSize}}px;
+          	  overflow:hidden;
+          	  text-overflow:ellipsis;
+          	  max-height: {{navminheight|brief_textSize,title_lineNum}};
+          	  text-align: {{textAlign|brief_textAlignment}};
+          }
+        }
+     }
+     .right_image{
+      	display:{{isDisplay|right_image_visible}};
+      	width:{{right_image_width}}rpx;
+      	height:{{right_image_height}}rpx;
+      	background:{{getBackground|right_image}};
+      	background-size:100%;
+      	align-self:{{alignSelf|right_image_location}};
+      }
+  }
+  /*水平分割线*/
+  .horizontal_line{
+      border-bottom:{{navigaborder|divider_height,divider_bg}};
+      margin:{{margin|divider_margin}};
+   }
+
+}
+
+/*组件头*/
+#{{view_id}} .header{
+	display:{{isDisplay|header_visible,flex}};
+	background:{{advanceBg|header_bg}};
+	margin:{{margin|header_margin}};
+	text-align: {{textAlign|header_title_textAlignment}};
+	height: {{swiperHeight|header_whScale}};
+	line-height:{{swiperHeight|header_whScale}};
+    .headertitle{
+        width:100%;
+        margin:{{padding|header_title_margin}};
+        white-space: nowrap;
+        color:{{formatColorToRgba|header_title_textColor}};
+        font-size:{{header_title_textSize}}px;
+   }
+}

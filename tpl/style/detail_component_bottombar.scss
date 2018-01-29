@@ -1,0 +1,30 @@
+/*详情底栏组件*/
+#{{view_id}} .bar{
+    position:fixed;
+    width:100%;
+    background:{{advanceBg|bg}};
+    height: {{height}}rpx;
+    filter:{{detailbottomfilter|isBlur}};
+    top:{{detailbottomcomponentspace|isCustomTopbar}};
+    bottom:{{detailbottomcomponenttop|isCustomTopbar}};
+    /*分割线*/
+    .divider{
+      height:{{divider_height}}rpx;
+      .dividerborder{
+         background-color:{{formatColorToRgba|divider_color}};
+         height:{{divider_height}}rpx;
+         width:100%;
+      }
+    }
+    .bottombar{
+      display:-webkit-flex;
+      display:flex;
+      -webkit-justify-content:space-between;
+      justify-content:space-between;
+      .items_center{
+         display:-webkit-flex;
+         display:flex;
+         align-items: center;
+      }
+    }
+}

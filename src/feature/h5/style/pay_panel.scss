@@ -1,0 +1,77 @@
+.van-actionsheet{
+	.van-actionsheet__content{
+		.payPanel{
+		    border-top:solid 1px #e6e6e6;
+		    background : #fff;
+		    .van-icon:before{
+		    	color:#14a7ff;
+		    }
+		    .close{
+			    width:15px;
+			    height:15px;
+			    background:url('http://school-img.dingdone.com/dingdone20170902111829690cha@3x.png') no-repeat center;
+			    background-size:15px 15px;
+			}
+			.title{
+			    text-align:center;
+			}
+			.total{
+			    padding:0 15px;
+			    line-height: 55px;
+			    color: #333;
+			    font-size:15px;
+			    border-bottom : solid 1px #e6e6e6;
+			}
+			.price{
+			    font-size:22px;
+			}
+			.balance{
+			    width:25px;
+			    height:25px;
+			    border-radius:50%;
+			    background:url(http://school-img.dingdone.com/dingdone20170902113426696icon1@3x.png) no-repeat center center;
+			    background-size:25px 25px;
+			    margin-right:10px;
+			}
+			.youzan{
+			    width:25px;
+			    height:25px;
+			    border-radius:50%;
+			    background:url(http://school-img.dingdone.com/dingdone20170902113459535icon2@3x.png) no-repeat center center;
+			    background-size:25px 25px;
+			    margin-right:10px;
+			}
+			.chanel{
+			    padding : 0 15px;
+			    line-height: 55px;
+			    color: #333;
+			    font-size:15px;
+			    border-bottom : solid 1px #e6e6e6;
+			}
+			.add{
+			    padding : 0 15px;
+			    line-height: 45px;
+			    border-radius:6px;
+			    color: #fff;
+			    background : #14a7ff;
+			    font-size:17px;
+			    border-bottom : solid 1px #e6e6e6;
+			    margin:60px 15px 20px;
+			    text-align:center;
+			    font-weight: 300;
+			    display: flex;
+			    justify-content:center;
+			    align-items:center;
+			    .van-loading--spinner{
+			    	width:18px;
+			    	height:18px;
+			    	margin-left:5px;
+			    }
+			}
+			.disabled{
+			    background:#ebebeb;
+			    pointer-events:none;
+			}
+		}
+	}
+}

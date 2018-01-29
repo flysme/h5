@@ -1,0 +1,29 @@
+[
+	{
+		"id": "11111",
+		"name": "吴佳鸿1",
+		"phone": "15689294561",
+		"district": "江苏省,南京市,雨花台区",
+		"district_code": 110011,
+		"detail": "安德门大街57号",
+		"is_default": true
+	},
+	{
+		"id": "22222",
+		"name": "吴佳鸿2",
+		"phone": "15689294561",
+		"district": "江苏省,南京市,雨花台区",
+		"district_code": 110011,
+		"detail": "安德门大街57号",
+		"is_default": false
+	},
+	{
+		"id": "33333",
+		"name": "吴佳鸿3",
+		"phone": "15689294561",
+		"district": "江苏省,南京市,雨花台区",
+		"district_code": 110011,
+		"detail": "安德门大街57号",
+		"is_default": false
+	}		
+]

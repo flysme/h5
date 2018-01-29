@@ -1,0 +1,140 @@
+/*标准列表导航器*/
+
+/*列表*/
+#d82098962928b4594a0daf1d0607536f9 .navigator1{
+	margin: 10px 0 0 0;
+}
+
+/*边框*/
+#d82098962928b4594a0daf1d0607536f9 .borderline{
+	 overflow: hidden;
+     width: 100%;
+     border-width:1px 0 1px 0 ;
+     border-color:rgba(235,235,235,1) rgba(0,0,0,1) rgba(235,235,235,1) rgba(0,0,0,1);
+     border-style:solid;
+}
+
+/*水平分割线*/
+#d82098962928b4594a0daf1d0607536f9 .horizontal_line{
+    border-bottom:1px solid rgba(235,235,235,1);
+    margin:0 0 0 10px;
+}
+
+/*列表布局*/
+#d82098962928b4594a0daf1d0607536f9 .spacecontent{
+    justify-content:space-between;
+}
+
+/*列表项*/
+#d82098962928b4594a0daf1d0607536f9 .listitemview{
+   background: rgba(255,255,255,1);
+   background-size: contain;
+   padding:15px 15px 15px 15px;
+   border-radius:0px;
+   border-width:1px 0 1px 0 ;
+   border-color:rgba(235,235,235,1) rgba(0,0,0,1) rgba(235,235,235,1) rgba(0,0,0,1);
+   border-style:solid;
+}
+
+/*列表标题*/
+#d82098962928b4594a0daf1d0607536f9 .listitemtitle{
+	 min-height: 16px;
+	 background: rgba(255,255,255,0.00);
+	 display:block;
+	 color: rgba(51,51,51,1);
+	 margin:0 0 0 0;
+	 padding:3px 0 0 5px;
+	 font-weight:normal;
+}
+
+ /*列表字行数*/
+#d82098962928b4594a0daf1d0607536f9  .itemtitle{
+      max-width: 100%;
+      white-space:nowrap;
+      line-height:14px;
+      overflow:hidden;
+      text-overflow: ellipsis;
+      max-height: 16px;
+      text-align:left;
+ }
+
+  /*列表字*/
+#d82098962928b4594a0daf1d0607536f9 .title{
+       font-size:14px;
+       text-shadow:none;
+}
+
+/*索引图*/
+#d82098962928b4594a0daf1d0607536f9 .indexpic{
+	   width: 18px;
+     display:block;
+     height: 18px;
+}
+
+#d82098962928b4594a0daf1d0607536f9 .indexpicimage{
+	 border-radius:0px;
+    position: relative;
+    border-width:0;
+	  border-color:transparent;
+    border-style:solid;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*遮罩*/
+#d82098962928b4594a0daf1d0607536f9 .indexpicmask{
+    width:100%;
+  	height:100%;
+  	top: 0;
+  	position:absolute;
+  	display: none;
+  	background: rgba(0,0,0,0.50);
+}
+
+/*组件头*/
+#d82098962928b4594a0daf1d0607536f9 .header{
+	display:none;
+	background:rgba(255,255,255,1);
+	margin:0 0 0 0;
+	text-align: left;
+	height: calc( 10vw );
+	line-height:calc( 10vw );
+}
+
+#d82098962928b4594a0daf1d0607536f9  .headertitle{
+      width:100%;
+      margin:0 0 0 0;
+      white-space: nowrap;
+      color:rgba(68,68,68,1);
+      font-size:14px;
+}
+
+/*列表描述*/
+#d82098962928b4594a0daf1d0607536f9 .listitemdescribe{
+      background:rgba(255,255,255,0.00);
+      display: none;
+      color:rgba(17,17,17,1);
+      margin:0 0 0 0;
+      padding:0 0 0 0;
+      font-weight:normal;
+}
+
+#d82098962928b4594a0daf1d0607536f9 .itemdescribe{
+	  max-width:100%;
+	  font-size:14px;
+	  white-space:nowrap;
+	  line-height:14px;
+	  overflow:hidden;
+	  text-overflow:ellipsis;
+	  max-height: 16px;
+	  text-align: left;
+}
+#d82098962928b4594a0daf1d0607536f9 .right_image{
+	display:block;
+	width:15px;
+	height:15px;
+	background:url(http://resource.ddapp.com/app/dd_u_4cf5e12964e04c49bd1fdbe425342c6e.png) no-repeat center;
+	background-size:100%;
+
+}

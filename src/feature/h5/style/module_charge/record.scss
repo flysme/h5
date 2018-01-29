@@ -1,0 +1,32 @@
+/* 积分储值 */
+.chargerecord{
+    font-size : 14px;
+    color : #484848;
+    position : relative;
+    min-height:100vh;
+    .mt5{
+        margin-top:5px;
+    }
+    .nodata{
+        text-align:center;
+        padding:30px;
+        font-size:20px;
+        color:#999999;
+        font-weight:300;
+    }
+    .list{
+        color:#999999;
+        background:#fff;
+        .item{
+            height:60px;
+            padding:0 20px;
+            color:#333333;
+            border-bottom:solid 1px #ebebeb;
+            .tip{
+                color:#999999;
+                font-size:13px;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,41 @@
+/*底栏组件按钮*/
+#{{view_id}} .button{
+    border-color:{{formatColorToRgba|bg_nor}};
+    margin:{{margin|margin}};
+    padding: {{padding|padding}};
+    display:flex;
+    .image{
+      background:{{advanceBg|icon_nor}};
+      width:{{icon_width}}rpx;
+      height:{{icon_height}}rpx;
+      border-radius:{{icon_radius}}px;
+      background-size:100%;
+      align-self:center;
+    }
+    .image:active {
+      background:{{advanceBg|icon_pre}};
+      width:{{icon_width}}rpx;
+      height:{{icon_height}}rpx;
+      border-radius:{{icon_radius}}px;
+      background-size:100%;
+      align-self:center;
+    }
+    .title{
+      background-color:{{formatColorToRgba|title_bg}};
+      font-weight:{{isBold|title_is_bold}};
+      color:{{formatColorToRgba|title_nor_color}};
+      font-size:{{title_size}}px;
+    }
+    .title:active{
+      background-color:{{formatColorToRgba|title_bg}};
+      font-weight:{{isBold|title_is_bold}};
+      color:{{formatColorToRgba|title_pre_color}};
+      font-size:{{title_size}}px;
+     }
+     .imagetitlebottom{
+       margin-bottom:{{space}}rpx;
+     }
+     .imagetitleright{
+       margin-right:{{space}}rpx;
+      }
+}

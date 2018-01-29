@@ -1,0 +1,14 @@
+@import "./uikit";
+
+body{margin:0;}
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $defaultFontColor;
+  min-height: 100vh;
+}
+@media screen and (min-width: $mobilePlatformWidth) {
+    #app {max-width:$mobilePlatformWidth; margin: 0 auto;box-shadow: 0 0 15px rgba(0,0,0,.1);background: white;}
+    body{background: $mobilePlatformColor;}
+}
